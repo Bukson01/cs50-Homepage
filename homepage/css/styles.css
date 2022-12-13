@@ -1,0 +1,67 @@
+body{
+    font-family: "Merriweather",serif;
+    font-weight: 300;
+}
+
+#others{
+    background-color: blueviolet;
+    color: black;
+    border: blueviolet;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 28px;
+    transition-duration: 0.4s;
+  }
+  #others:hover {
+    background-color: white;
+    color: black;
+    border: blueviolet;
+  }
+
+.button{
+    padding: .8rem 2.2rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background-color: blueviolet ;
+    color: black;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.secondary-buttodn:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
